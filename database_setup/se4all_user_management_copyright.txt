@@ -1,0 +1,19 @@
+
+__title__           = "se4all user management"
+__file_name__       = "se4all_user_management.graphml"
+__date__            = "2019-08-28"
+__author__          = "Ludwig Hülk"
+__copyright__       = "© Reiner Lemoine Institut"
+__license__         = "CC BY 4.0"
+__license_url__     = "https://creativecommons.org/licenses/by/4.0/"
+__instructions__    = "You are free to Share and Adapt as long as you Attribute and don't add additional restrictions"
+__citation__        = "se4all user management © Reiner Lemoine Institut | CC BY 4.0"
+
+__acknowledgement__= "Ludwig Hülk"
+
+## additional information
+# software: "yEd"
+# format: "graphml"
+# font: "Roboto Light"
+# size: "1144 x 755"
+# colour: RGB = "" ; hex = ""

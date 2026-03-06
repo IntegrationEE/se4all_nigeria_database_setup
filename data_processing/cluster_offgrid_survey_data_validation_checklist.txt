@@ -1,0 +1,35 @@
+/*
+This file contains changes made while carrying out data validation to check completeness and consistency check
+for the cluster_offgrid_survey data. All changes were first made to the data in the import schema before 
+re-uploading to the cluster_offgrid_survey table in the se4all schema.
+
+*/
+
+1. --Updated column in offgrid_survey_ondo_wo_1 table in the import schema. 
+    
+    Changed the value to NULL where "Others_4" = '4' and "other(s)" = 0
+
+    Changed the value for settlements 2 and 19 where "Others_4" = '4' and "other(s)" = 1. 
+        Changed the value from '4' to 'Cloth weaving (Aso oke)' and 'Photographer' respectively
+
+
+2. Updated column in offgrid_survey_abia_wo_1 table in the import schema.
+
+    Changed the value to NULL for settlement where "year_built" = '-97' 
+
+
+3. Updated columns "third and "fourth" to NULL where values = '0' or 'O' for
+
+    offgrid_survey_edo_wo_1
+    offgrid_survey_plateau_wo_1
+    offgrid_survey_akwa_ibom_wo_1
+    offgrid_survey_bayelsa_wo_1
+    offgrid_survey_cross_river_wo_2
+    offgrid_survey_imo_wo_1
+    offgrid_survey_jigawa_wo_1
+
+4. Manually added 2 missing data (settlement id 19 and 12) in offgrid_survey_Ogun_wo_1.
+
+5. Added missing lga_data for the 'selectlga' column in OYO_wo_1 and OYO_wo_2. 
+    for existing data in the column, Changed the value from number to their respective text value 
+    example '32' = 'Saki West'

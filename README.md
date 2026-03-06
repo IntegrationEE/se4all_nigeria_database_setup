@@ -1,6 +1,6 @@
-# ⚡SE4ALL Nigeria Database set-up
+# ⚡Nigeria SE4ALL Database set-up
 
-This codebase provide SQL on initiation (set-up) of the SE4ALL database. The database set-up scripts were written between 2019 - 2023 and so may contain some legacy / age related issues. 
+This codebase provide SQL on initiation (set-up) of the Nigeria SE4ALL (https://nigeriase4all.gov.ng/) database. The database set-up scripts were written between 2019 - 2023 and so may contain some legacy / age related issues. 
 
 ## 👥 Code contributors
 - https://github.com/yelsre
